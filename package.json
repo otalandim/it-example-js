@@ -7,13 +7,14 @@
     "test": "mocha __tests__"
   },
   "devDependencies": {
+    "allure-commandline": "^2.13.8",
     "chai": "4.2.0",
     "chai-http": "4.3.0",
+    "joi": "^10.4.1",
+    "joi-assert": "^0.0.3",
     "mocha": "6.2.0",
     "mochawesome": "^4.1.0",
-    "supertest": "^3.0.0",
-    "joi": "^10.4.1",
-    "joi-assert": "^0.0.3"
+    "supertest": "^3.0.0"
   },
   "keywords": [],
   "author": "",
