@@ -16,7 +16,7 @@ describe('Login', () => {
     request(URL)
       .get("api/users/2")
     .end((err, res) => {
-      expect(res.status).to.be.eql(400);
+      expect(res.status).to.be.eql(200);
       done()
     })  
   })
