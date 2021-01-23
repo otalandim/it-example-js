@@ -1,0 +1,21 @@
+{
+  "name": "it-example-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha __tests__"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "mocha": "6.2.0",
+    "mochawesome": "^4.1.0",
+    "supertest": "^3.0.0",
+    "joi": "^10.4.1",
+    "joi-assert": "^0.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
