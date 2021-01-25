@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611601241242' stop='1611601243386'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1611601241249' status='passed' stop='1611601242390'>
+            <name>should validate statusCode 200 to api list users</name>
+            <title>should validate statusCode 200 to api list users</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1611601242391' status='passed' stop='1611601243386'>
+            <name>should validate statusCode 200 to api find user</name>
+            <title>should validate statusCode 200 to api find user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha __tests__"
+    "test": "mocha --recursive __tests__/*.js",
+    "generateReporter": "mocha --recursive __tests__/*.js --reporter mocha-allure-reporter",
+    "reporter": "npm test && npm run generateReporter"
   },
   "devDependencies": {
     "allure-commandline": "^2.13.8",
@@ -18,5 +20,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha-allure-reporter": "^1.4.0"
+  }
 }

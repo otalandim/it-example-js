@@ -3,7 +3,7 @@ const expect = require("chai").expect
 const URL = "https://reqres.in/"
 
 describe('Login', () => {
-  it('should do to log in', (done) => {
+  it('should validate statusCode 200 to api list users', (done) => {
     request(URL)
       .get("api/users?page=2")
     .end((err, res) => {
@@ -12,7 +12,7 @@ describe('Login', () => {
     })  
   })
 
-  it('should do to log in', (done) => {
+  it('should validate statusCode 200 to api find user', (done) => {
     request(URL)
       .get("api/users/2")
     .end((err, res) => {
