@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive __tests__/*.js",
-    "generateReporter": "mocha --recursive __tests__/*.js --reporter mocha-allure-reporter",
+    "test": "mocha --recursive __tests__/**/*.js",
+    "generateReporter": "mocha --recursive __tests__/**/*.js --reporter mocha-allure-reporter",
     "reporter": "npm test && npm run generateReporter"
   },
   "devDependencies": {
